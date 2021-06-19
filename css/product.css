@@ -1,0 +1,126 @@
+/*Product*/
+
+header {
+    padding: 1em;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    max-width: 340px;
+    margin: auto;
+    padding: 1em;
+}
+
+.circle img {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    padding: 1em;
+  }
+
+  .product_text {
+      padding: 1em;
+  }
+
+  .price {
+      display: flex;
+      padding: 0 1em;
+  }
+
+  .price span {
+      font-weight: bold;
+      margin-right: 5px;
+  }
+
+  .product_details {
+      padding: 1em;
+  }
+
+  .product_details p {
+      font-weight: bold;
+      margin-bottom: 5px;
+  }
+
+  .product_details ul {
+      list-style: square inside;
+  }
+
+  /*Checkout Quantity and price*/
+
+ .checkout {
+     padding: 1em;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .checkout h2 {
+     padding: 0 1rem;
+ }
+
+ .quantity {
+     padding: 1em;
+     display: flex;
+ }
+
+ .quantity span {
+     border: 1px solid black;
+     padding: 1px 4px;
+     margin: 0 5px;
+     cursor: pointer;
+ }
+ 
+ #quantity_number {
+     padding: 0 10px;
+     display: flex;
+     align-items: center;
+     cursor: auto;
+ }
+
+ .total {
+     display: flex;
+     padding: 0 1em;
+ }
+
+ .total span {
+     font-weight: bold;
+     margin-right: 5px;
+ }
+
+ /*Checkout form*/
+
+ .postal_city {
+     display: flex;
+     gap: 15px;
+ }
+
+ .postal, .date {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .postal input, .date_cvc input {
+    max-width: 80px;
+  }
+
+  .city input {
+      max-width: 120px;
+  }
+
+ .city, .cvc {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .date_cvc {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 10px;
+  }
+
+
+
+
+
+
+

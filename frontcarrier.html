@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="SNUG Baby carriers is a premium Norwegian baby carrier seller. All our products are handmade in Norway"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/adec9b814a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/product.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>SNUG Baby Carriers | SNUG Front Carrier</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav_color">
+      <div class="nav_bar">
+        <a href="index.html" class="logo">
+          <span>
+            <span class="logo_top">SNUG</span>
+            <hr />
+            <span class="logo_bottom">Baby</span>
+            <span class="logo_bottom">Carriers</span>
+          </span>
+        </a>
+        <label for="hamburger-menu"
+          ><i class="fas fa-bars" aria-hidden="true"></i
+        ></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="backcarrier.html">SNUG Back Carrier</a>
+            </li>
+            <li>
+              <a class="active" href="frontcarrier.html">SNUG Front Carrier</a>
+            </li>
+            <li>
+              <a href="about.html">About us</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      </div>
+      <header>
+        <h1 class="header_titles">SNUG Front Carrier</h1>
+      </header>
+      <main>
+        <section class="product">
+          <div class="circle">
+            <img
+              src="images/frontcarrier.jpg"
+              alt="Mother using a SNUG Front Carrier"
+            />
+          </div>
+          <div class="product_text">
+            <p>
+              Snug front carrier is an comfortable baby carrier handmade to
+              perfection. This carrier is made of a mix of cotton and polyester.
+              It is made for carrying your baby on your front. Easy to use and
+              can be cleaned by hand. Not preferred to put in the washer.
+            </p>
+          </div>
+          <div class="price">
+            <span>Price:</span>
+            <p>1 299 NOK</p>
+          </div>
+          <div class="product_details">
+            <p>Product details</p>
+            <ul>
+              <li>Handmade in Norway</li>
+              <li>Cotton and polyester</li>
+              <li>Use for baby aged 0 - 4 years old</li>
+              <li>Maximum 30 kg</li>
+              <li>Three safety straps</li>
+              <li>Black color</li>
+              <li>Can be used on front only</li>
+            </ul>
+          </div>
+        </section>
+        <section class="checkout">
+          <h2>Checkout</h2>
+          <div class="quantity">
+            <p>Quantity</p>
+            <span>-</span>
+            <span id="quantity_number">1</span>
+            <span>+</span>
+          </div>
+          <div class="total">
+            <span>Total:</span>
+            <p>1 299 NOK</p>
+          </div>
+          <form action="POST">
+            <div class="form_content">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" />
+
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" />
+
+              <label for="street">Street</label>
+              <input type="text" id="street" name="street" />
+              <div class="postal_city">
+                <div class="postal">
+                  <label for="Postal">Postal code</label>
+                  <input type="text" id="Postal" name="Postal" />
+                </div>
+                <div class="city">
+                  <label for="city">City</label>
+                  <input type="text" id="city" name="city" />
+                </div>
+              </div>
+              <label for="card">Card Number</label>
+              <input type="text" id="card" name="card" />
+              <div class="date_cvc">
+                <div class="date">
+                  <label for="exp">Exp date</label>
+                  <input type="text" id="exp" name="exp" />
+                </div>
+                <div class="cvc">
+                  <label for="cvc">CVC</label>
+                  <input type="text" id="cvc" name="cvc" />
+                </div>
+              </div>
+              <a href="confirmation.html" class="btn">Confirm and Pay</a>
+            </div>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <hr />
+        <div class="flex_footer">
+          <div class="footer_links">
+            <a href="index.html">Home</a>
+            <a href="backcarrier.html">SNUG Back Carrier</a>
+            <a href="frontcarrier.html">SNUG Front Carrier</a>
+            <a href="about.html">About us</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div class="logo logo_footer">
+            <span>
+              <span class="logo_top">SNUG</span>
+              <hr />
+              <span class="logo_bottom">Baby</span>
+              <span class="logo_bottom">Carriers</span>
+            </span>
+          </div>
+        </div>
+        <p class="copyrights">© 2021 SNUG Baby Carriers. All Rights Reserved</p>
+      </footer>
+    </div>
+  </body>
+</html>

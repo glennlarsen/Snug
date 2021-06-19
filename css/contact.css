@@ -1,0 +1,81 @@
+header {
+  padding-top: 1em;
+}
+
+.contact_form,
+.contact_info,
+.information,
+.address,
+.map {
+  padding: 1em;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+}
+
+.information span {
+  margin-right: 5px;
+}
+
+.information h2 {
+  margin-bottom: 5px;
+}
+
+.email,
+.phone {
+  display: flex;
+  flex-direction: row;
+}
+
+.form_content_contact input,
+.form_content_contact textarea {
+    padding: 1em;
+    border-color: var(--pink);
+}
+
+.form_content_contact textarea {
+  height: 65%;
+  min-height: 130px;
+}
+
+.form_content_contact label, .form_content_contact button {
+    margin-top: 10px;
+}
+
+/*overlay pop up window*/
+.overlay {
+    position: fixed;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 3;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: auto;
+    padding: 20px;
+    background: white;
+    color: var(--pink);
+    width: 70%;
+    text-align: center;
+    position: relative;
+    transition: all 2s ease-in-out;
+  }
+  
+  .popup-button {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }

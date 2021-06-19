@@ -1,0 +1,16 @@
+header {
+    padding-top: 1em;
+}
+
+.about_content {
+    padding: 1em;
+}
+
+.about_content >* {
+    padding: 1em;
+}
+
+.about_title {
+    margin: 0 auto;
+    padding: 0 1em;
+}

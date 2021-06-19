@@ -1,0 +1,39 @@
+header {
+    padding-top: 1em;
+}
+
+.order_success, .order_success span, .order_product, .product_text>*, .confirmation p {
+    padding: 1em;
+}
+
+.order_success span {
+    font-weight: bold;
+}
+
+.order_product {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.circle_image img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+
+  .buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .shipping {
+      margin-bottom: 1em;
+  }
+
+  .shipping p {
+      padding: 0.5em 1em;
+  }
+
