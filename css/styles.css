@@ -21,7 +21,6 @@ p {
   line-height: 1.4;
 }
 
-
 .container {
   min-height: 100vh;
   display: flex;
@@ -54,7 +53,6 @@ header {
   text-align: center;
 }
 
-
 /*Buttons*/
 .btn {
   padding: 10px 20px;
@@ -82,7 +80,8 @@ header {
 
 /*Forms*/
 
-.form_content, .form_content_contact {
+.form_content,
+.form_content_contact {
   padding: 1em;
   display: flex;
   flex-direction: column;
@@ -105,7 +104,7 @@ header {
 .form-success {
   display: none;
   color: green;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 /*Navigation*/
@@ -163,10 +162,10 @@ nav a {
   border-bottom: 4px solid transparent;
 }
 
-nav a:hover, .active {
+nav a:hover,
+.active {
   border-color: white;
 }
-
 
 /*Footer*/
 
